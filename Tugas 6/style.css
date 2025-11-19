@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tabel-perkalian th,
+.tabel-perkalian td {
+    border: 2px solid black;
+    width: 45px;
+    height: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Header kiri abu-abu */
+.judul-kiri {
+    background: #e6e6e6;
+    width: 80px;
+}
+
+/* Header angka atas */
+.header-atas {
+    background: #00ff44;
+}
+
+/* Header angka kiri */
+.header-kiri {
+    background: #00ff44;
+}
+
+/* Cell biru (genap) */
+.cell-biru {
+    background: #00e5ff;
+}
+
+/* Cell kuning (ganjil) */
+.cell-kuning {
+    background: #fff600;
+}
